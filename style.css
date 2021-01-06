@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header {
+    background: #ff634747;
+    padding: 25px 0px;
+    position: fixed;
+    width: 100%;
+}
+nav {
+    text-align: right;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    font-weight: 900;    
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background: tomato;
+    color: white;
+    transition-duration: 500ms;
+}
+
+
+
+.into {
+    padding-top: 100px;
+}
+.single-into {
+    width: 44%;
+    float: left;
+    padding: 3%;
+}
+.single-into-img img {
+    width: 85%;
+}
+.single-into-img img:hover {
+    width: 100%;
+    transition-duration: 500ms;
+}
+.single-into-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.single-into-text span {
+    color: tomato;
+}
+.single-into-text p {
+    color: gray;
+    padding-right: 28%;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(45deg,#FF2A7D,tomato);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-image: linear-gradient(90deg,tomato,#FF2A7D);
+    padding: 15px 20px;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+
+
+
+
+.about-area {
+    clear: both;
+}
+.single-about-area {
+    width: 44%;
+    float: left;
+    padding: 3%;
+}
+.single-about-img img {
+    width: 85%;
+}
+.single-about-img img:hover {
+    width: 100%;
+    transition-duration: 500ms;
+}
+.single-about-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.single-about-text p {
+    color: gray;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+
+.latest-work {
+    clear: both;
+}
+.latest-work-heading h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.single-work {
+    width: 27%;
+    float: left;
+    padding: 2%;
+    margin: ;
+    margin-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+.single-work:hover {
+    box-shadow: 5px 5px 50px tomato;
+    transition-duration: 500ms;
+}
+.single-work img {
+    width: 100%;
+}
+
+
+
+
+.services {
+    clear: both;
+    padding: 100px 0px;
+}
+.service-header h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: tomato;
+}
+.service-header p {
+    font-size: 18px;
+    padding: 0px 24%;
+    text-align: justify;
+    color: gray;
+}
+.single-services {
+    width: 28%;
+    float: left;
+    padding: 0% 1%;
+    margin-left: 3%;
+}
+.services-item {
+    padding-top: 40px;
+}
+.single-services i {
+    font-size: 50px;
+    color: tomato;
+}
+.single-services i:hover {
+    color: #FF2379;
+}
+.single-services h3 {
+    font-size: 22px;
+    padding: 30px 0px 0px 0px;
+    margin: 0;
+}
+.single-services p {
+    color: gray;
+    text-align: justify;
+}
+.services-item1 {
+    padding-bottom: 215px;
+}
+
+
+
+
+.inquiry {
+    clear: both;
+    height: 100%;
+    padding: 100px 0px 40px 0px;
+    width: 100%;
+}
+.work-inquiry {
+    clear: both;
+    width: 60%;
+    background-image: url(assets/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 100px 0px;
+    border-radius: 30px;
+    margin: auto;
+}
+.single-inquiry {
+    width: 50%;
+    float: left;
+}
+.single-inquiry-btn {
+    text-align: right;
+    padding: 11px 25px 11px 0px;
+}
+.work-inquiry-text h2 {
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left: 41px;
+    margin: 0;
+}
+
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+footer h6 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+footer h4 {
+    font-size: 35px;
+    margin: 10px;
+    padding: 0;
+}
+footer i {
+    font-size: 30px;
+    color: tomato;
+    padding: 5px;
+}
+footer i:hover {
+    color: #FF2F81;
+    transition-duration: 500ms;
+}
